@@ -1,0 +1,22 @@
+---
+title: "Precis"
+author: "Sofia Marie Mascia"
+date: "16/10/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tibble)
+library(dplyr)
+```
+
+```{r}
+load('Article for World Development (child labor).RData')
+summary(x)
+
+```
+
+##The Question:
+
+I will be examining if countries that are more open to trade and/or have a higher stock of foreign direct investment also have a lower incidence of child labor.

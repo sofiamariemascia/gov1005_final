@@ -8,9 +8,10 @@
 #
 
 library(shiny)
-library(tidyverse)
 library(ggplot2)
+library(tibble)
 library(dplyr)
+library(tidyverse)
 
 app_data <- read_rds("app_data")
 

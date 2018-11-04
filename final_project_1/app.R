@@ -10,6 +10,7 @@
 library(shiny)
 library(tidyverse)
 library(ggplot2)
+library(dplyr)
 
 app_data <- read_rds("app_data")
 

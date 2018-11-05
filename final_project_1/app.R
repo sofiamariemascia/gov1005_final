@@ -13,7 +13,7 @@ library(tibble)
 library(dplyr)
 library(tidyverse)
 
-app_data <- read_rds("app_data")
+load("Article for World Development (child labor).RData")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(

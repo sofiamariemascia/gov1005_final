@@ -13,7 +13,7 @@ library(tidyverse)
 ```
 
 ```{r}
-x > load('Article for World Development (child labor).RData')
+x > load("Article for World Development (child labor).RData")
 
 x %>% 
   select(labour1014rate) %>% 

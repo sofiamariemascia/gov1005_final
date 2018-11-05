@@ -13,14 +13,12 @@ library(tidyverse)
 ```
 
 ```{r}
-load('Article for World Development (child labor).RData')
+x > load('Article for World Development (child labor).RData')
 
-summary(x)
-
-x %>%
+x %>% 
   select(labour1014rate) %>% 
   ggplot(aes(x = labour1014rate)) + geom_histogram()
-
+ 
 x %>%  write_rds("final_project_1/app_data")
 ```
 
